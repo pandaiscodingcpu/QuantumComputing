@@ -1,15 +1,6 @@
 import numpy as np
+import math
 
-class Gates:
-    def __init__(self,inp1,inp2):
-        self.inp1 = inp1
-        self.inp2 = inp2
-
-    # single gates
-    # X-Gate
-    def XGate(self):
-        pass
-
-
-
-
+hadamard = (1/math.sqrt(2)) * (np.array([[1,1],[1,-1]],dtype='int'))
+q0 = np.array([1,0])
+print(q0.T)
