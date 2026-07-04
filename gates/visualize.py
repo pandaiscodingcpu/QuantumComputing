@@ -5,11 +5,9 @@ import matplotlib.pyplot as plt
 def plot(statevector):
     # convert the qiskit's statevector into QuTip quantum object -> ket
     ket = Qobj(statevector)
-
     # initialize the bloch sphere
     b = Bloch()
     b.add_states(ket)
     #render the sphere
     b.show()
-    plt.show()
 
