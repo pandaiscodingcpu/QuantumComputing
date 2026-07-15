@@ -51,5 +51,3 @@ g = Gates("gates")
 
 
 
-
-

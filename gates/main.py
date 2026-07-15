@@ -3,7 +3,7 @@ from visualize import *
 
 def main():
     # create gates object
-    print("Select the gate to be visualized (you can even select more than 1 gate)")
+    print("Select the gate to be visualized: ")
     print("1. Hadamard Gate\n2. Pauli X gate\n3. Pauli Y gate\n4. Pauli Z gate\n5. S gate\n6. T gate")
     choice = int(input())
     if choice == 1:
